@@ -5,23 +5,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>K.H ENTERPRISES | AC, Fridge, Washing Machine Repair Dhanbad</title>
+<title>K.H. Enterprises | AC, Fridge, Washing Machine Repair</title>
 
 <meta name="description"
-content="K.H ENTERPRISES provides professional AC repair, refrigerator repair, washing machine repair, geyser repair, microwave, chimney, LED TV and Aquaguard repair services.">
+content="K.H. Enterprises provides professional AC, refrigerator, washing machine, geyser, microwave, chimney, TV and water purifier repair services.">
 
 <meta name="keywords"
-content="AC repair Dhanbad, fridge repair Dhanbad, refrigerator repair Dhanbad, washing machine repair Dhanbad, geyser repair Dhanbad, microwave repair Dhanbad, chimney repair Dhanbad, LED TV repair Dhanbad, Aquaguard repair Dhanbad">
+content="AC repair, fridge repair, washing machine repair, geyser repair, microwave repair, chimney repair, TV repair, water purifier repair">
 
-<meta name="author" content="K.H ENTERPRISES">
+<meta name="author" content="K.H. Enterprises">
 
 <meta name="theme-color" content="#07111f">
 
 <style>
 
-/* =====================================================
-   RESET
-===================================================== */
+/* ================= RESET ================= */
 
 *{
     margin:0;
@@ -35,7 +33,7 @@ html{
 
 body{
     font-family:Arial,Helvetica,sans-serif;
-    background:#f4f8fb;
+    background:#f5f7fb;
     color:#172033;
     line-height:1.6;
 }
@@ -50,42 +48,35 @@ img{
 }
 
 
-/* =====================================================
-   BRAND COLORS
-===================================================== */
+/* ================= COLORS ================= */
 
 :root{
-    --blue:#087cff;
-    --blue-dark:#0459b8;
-    --green:#16c96b;
-    --green-dark:#07964b;
-    --dark:#06101f;
+    --kh-blue:#087cff;
+    --enterprise-green:#16a34a;
+    --dark:#07111f;
     --dark2:#0b2442;
-    --light:#f4f8fb;
+    --light:#f5f7fb;
     --text:#172033;
     --muted:#667085;
-    --white:#ffffff;
 }
 
 
-/* =====================================================
-   HEADER
-===================================================== */
+/* ================= HEADER ================= */
 
 header{
     position:sticky;
     top:0;
     z-index:9999;
-    background:rgba(4,12,24,.97);
-    backdrop-filter:blur(12px);
-    border-bottom:1px solid rgba(255,255,255,.10);
-    box-shadow:0 5px 25px rgba(0,0,0,.25);
+    background:rgba(5,12,23,.97);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid rgba(255,255,255,.08);
+    box-shadow:0 4px 20px rgba(0,0,0,.25);
 }
 
 .header-inner{
     max-width:1250px;
     margin:auto;
-    min-height:78px;
+    min-height:76px;
     padding:10px 20px;
     display:flex;
     align-items:center;
@@ -100,12 +91,12 @@ header{
     white-space:nowrap;
 }
 
-.logo span{
-    color:var(--blue);
+.logo .kh{
+    color:var(--kh-blue);
 }
 
-.logo b{
-    color:var(--green);
+.logo .ent{
+    color:var(--enterprise-green);
 }
 
 .logo small{
@@ -125,31 +116,28 @@ nav{
 nav a{
     color:#eaf1fb;
     padding:10px 11px;
-    border-radius:8px;
+    border-radius:7px;
     font-size:14px;
     font-weight:700;
     transition:.25s;
 }
 
 nav a:hover{
-    background:var(--blue);
+    background:var(--kh-blue);
     color:white;
 }
 
 .header-call{
-    background:linear-gradient(135deg,var(--green),var(--green-dark));
+    background:var(--enterprise-green);
     color:white;
-    padding:11px 18px;
-    border-radius:9px;
+    padding:11px 17px;
+    border-radius:8px;
     font-weight:800;
     white-space:nowrap;
-    box-shadow:0 5px 15px rgba(22,201,107,.25);
 }
 
 
-/* =====================================================
-   HERO
-===================================================== */
+/* ================= HERO ================= */
 
 .hero{
     min-height:680px;
@@ -164,8 +152,8 @@ nav a:hover{
     background:
     linear-gradient(
         135deg,
-        rgba(2,10,23,.90),
-        rgba(3,25,53,.70)
+        rgba(2,10,23,.78),
+        rgba(3,25,53,.58)
     ),
     url("hero.jpeg");
 
@@ -180,32 +168,30 @@ nav a:hover{
 
 .badge{
     display:inline-block;
-    background:rgba(8,124,255,.15);
-    border:1px solid rgba(8,124,255,.65);
+    background:rgba(8,124,255,.16);
+    border:1px solid rgba(8,124,255,.6);
     color:#8fc8ff;
-    padding:9px 20px;
+    padding:8px 18px;
     border-radius:30px;
-    font-weight:800;
+    font-weight:700;
     font-size:14px;
-    margin-bottom:20px;
+    margin-bottom:18px;
 }
 
 .hero h1{
-    font-size:60px;
-    line-height:1.08;
+    font-size:58px;
+    line-height:1.1;
     font-weight:900;
-    margin-bottom:18px;
+    margin-bottom:20px;
     color:white;
 }
 
-.hero h1 span{
-    color:var(--blue);
-    text-shadow:0 0 25px rgba(8,124,255,.25);
+.hero h1 .kh{
+    color:var(--kh-blue);
 }
 
-.hero h1 b{
-    color:var(--green);
-    text-shadow:0 0 25px rgba(22,201,107,.22);
+.hero h1 .ent{
+    color:var(--enterprise-green);
 }
 
 .hero h2{
@@ -231,7 +217,7 @@ nav a:hover{
     justify-content:center;
     flex-wrap:wrap;
     gap:12px;
-    margin-top:22px;
+    margin-top:20px;
 }
 
 .btn{
@@ -239,7 +225,7 @@ nav a:hover{
     align-items:center;
     justify-content:center;
     gap:8px;
-    min-width:175px;
+    min-width:170px;
     padding:14px 22px;
     border-radius:9px;
     color:white;
@@ -252,19 +238,19 @@ nav a:hover{
 
 .btn:hover{
     transform:translateY(-3px);
-    box-shadow:0 10px 25px rgba(0,0,0,.30);
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
 }
 
 .btn-call{
-    background:linear-gradient(135deg,var(--blue),var(--blue-dark));
+    background:var(--kh-blue);
 }
 
 .btn-whatsapp{
-    background:linear-gradient(135deg,var(--green),var(--green-dark));
+    background:var(--enterprise-green);
 }
 
 .btn-book{
-    background:linear-gradient(135deg,#ff7a00,#e94d00);
+    background:#ff6800;
 }
 
 .hero-trust{
@@ -279,15 +265,13 @@ nav a:hover{
     padding:9px 14px;
     border-radius:30px;
     background:rgba(255,255,255,.08);
-    border:1px solid rgba(255,255,255,.14);
+    border:1px solid rgba(255,255,255,.13);
     color:#dfe9f6;
     font-size:13px;
 }
 
 
-/* =====================================================
-   COMMON
-===================================================== */
+/* ================= COMMON ================= */
 
 section{
     padding:80px 20px;
@@ -304,7 +288,7 @@ section{
 }
 
 .section-heading .tag{
-    color:var(--blue);
+    color:var(--kh-blue);
     font-size:13px;
     font-weight:900;
     text-transform:uppercase;
@@ -323,12 +307,10 @@ section{
 }
 
 
-/* =====================================================
-   SERVICES
-===================================================== */
+/* ================= SERVICES ================= */
 
 .services{
-    background:#f4f8fb;
+    background:var(--light);
 }
 
 .services-grid{
@@ -341,15 +323,14 @@ section{
     background:white;
     border-radius:16px;
     overflow:hidden;
-    border:1px solid #e3ebf2;
-    box-shadow:0 5px 18px rgba(20,35,60,.08);
+    border:1px solid #e7ebf1;
+    box-shadow:0 5px 18px rgba(20,35,60,.07);
     transition:.3s;
 }
 
 .service-card:hover{
     transform:translateY(-8px);
-    border-color:rgba(8,124,255,.30);
-    box-shadow:0 16px 35px rgba(20,35,60,.15);
+    box-shadow:0 15px 35px rgba(20,35,60,.14);
 }
 
 .service-card img{
@@ -380,19 +361,13 @@ section{
 .service-link{
     display:inline-block;
     margin-top:13px;
-    color:var(--blue);
+    color:var(--kh-blue);
     font-weight:800;
     font-size:14px;
 }
 
-.service-link:hover{
-    color:var(--green-dark);
-}
 
-
-/* =====================================================
-   BRANDS
-===================================================== */
+/* ================= BRANDS ================= */
 
 .brands{
     background:white;
@@ -408,8 +383,8 @@ section{
 }
 
 .brand{
-    background:#f4f8fb;
-    border:1px solid #dfe8ef;
+    background:#f6f8fb;
+    border:1px solid #e4e8ee;
     padding:12px 19px;
     border-radius:30px;
     font-weight:800;
@@ -418,25 +393,17 @@ section{
 }
 
 .brand:hover{
-    background:var(--blue);
+    background:var(--kh-blue);
     color:white;
-    border-color:var(--blue);
+    border-color:var(--kh-blue);
 }
 
 
-/* =====================================================
-   WHY CHOOSE US
-===================================================== */
+/* ================= WHY ================= */
 
 .why{
-    background:
-    radial-gradient(circle at top right,rgba(8,124,255,.18),transparent 35%),
-    linear-gradient(135deg,#06101f,#0b2442);
+    background:linear-gradient(135deg,#06101f,#0b2442);
     color:white;
-}
-
-.why .section-heading .tag{
-    color:#5caeff;
 }
 
 .why .section-heading p{
@@ -461,7 +428,6 @@ section{
 .why-card:hover{
     transform:translateY(-7px);
     background:rgba(255,255,255,.10);
-    border-color:rgba(22,201,107,.35);
 }
 
 .why-icon{
@@ -472,11 +438,7 @@ section{
     align-items:center;
     justify-content:center;
     margin:0 auto 15px;
-    background:linear-gradient(
-        135deg,
-        rgba(8,124,255,.25),
-        rgba(22,201,107,.20)
-    );
+    background:rgba(8,124,255,.18);
     font-size:34px;
 }
 
@@ -490,12 +452,10 @@ section{
 }
 
 
-/* =====================================================
-   OUR WORK
-===================================================== */
+/* ================= WORK ================= */
 
 .work{
-    background:#f4f8fb;
+    background:var(--light);
 }
 
 .work-grid{
@@ -508,7 +468,7 @@ section{
     background:white;
     border-radius:15px;
     overflow:hidden;
-    border:1px solid #e2e9ef;
+    border:1px solid #e5e9ef;
     box-shadow:0 5px 18px rgba(20,35,60,.07);
 }
 
@@ -530,9 +490,7 @@ section{
 }
 
 
-/* =====================================================
-   HOW IT WORKS
-===================================================== */
+/* ================= HOW ================= */
 
 .how{
     background:white;
@@ -547,15 +505,9 @@ section{
 .step{
     padding:30px 20px;
     text-align:center;
-    border:1px solid #e1e8ef;
+    border:1px solid #e4e8ee;
     border-radius:15px;
     background:#fff;
-    transition:.3s;
-}
-
-.step:hover{
-    transform:translateY(-5px);
-    border-color:var(--blue);
 }
 
 .step-number{
@@ -566,7 +518,7 @@ section{
     justify-content:center;
     margin:0 auto 12px;
     border-radius:50%;
-    background:linear-gradient(135deg,var(--blue),var(--green));
+    background:var(--kh-blue);
     color:white;
     font-weight:900;
 }
@@ -581,12 +533,10 @@ section{
 }
 
 
-/* =====================================================
-   ABOUT
-===================================================== */
+/* ================= ABOUT ================= */
 
 .about{
-    background:#f4f8fb;
+    background:var(--light);
 }
 
 .about-grid{
@@ -605,7 +555,7 @@ section{
 }
 
 .about-content .tag{
-    color:var(--blue);
+    color:var(--kh-blue);
     font-size:13px;
     font-weight:900;
     letter-spacing:2px;
@@ -634,13 +584,10 @@ section{
     border-radius:8px;
     font-weight:700;
     font-size:14px;
-    border-left:4px solid var(--green);
 }
 
 
-/* =====================================================
-   REVIEWS
-===================================================== */
+/* ================= REVIEWS ================= */
 
 .reviews{
     background:white;
@@ -675,7 +622,7 @@ section{
 
 .review-button{
     display:inline-block;
-    background:linear-gradient(135deg,var(--blue),var(--blue-dark));
+    background:var(--kh-blue);
     color:white;
     padding:13px 23px;
     border-radius:8px;
@@ -683,17 +630,10 @@ section{
 }
 
 
-/* =====================================================
-   SERVICE AREAS
-===================================================== */
+/* ================= AREAS ================= */
 
 .areas{
-    background:
-    linear-gradient(
-        135deg,
-        #eaf5ff,
-        #effff6
-    );
+    background:linear-gradient(135deg,#eef7ff,#f2fff7);
 }
 
 .area-box{
@@ -704,8 +644,6 @@ section{
     padding:35px;
     border-radius:18px;
     box-shadow:0 7px 25px rgba(20,35,60,.08);
-    border-top:4px solid var(--blue);
-    border-bottom:4px solid var(--green);
 }
 
 .area-box .big-icon{
@@ -722,12 +660,10 @@ section{
 }
 
 
-/* =====================================================
-   BUSINESS
-===================================================== */
+/* ================= BUSINESS ================= */
 
 .business{
-    background:#f4f8fb;
+    background:var(--light);
 }
 
 .business-grid{
@@ -742,9 +678,8 @@ section{
     background:white;
     padding:28px;
     border-radius:16px;
-    border:1px solid #e1e8ef;
+    border:1px solid #e4e8ee;
     text-align:center;
-    box-shadow:0 5px 18px rgba(20,35,60,.06);
 }
 
 .business-card .icon{
@@ -771,17 +706,15 @@ section{
 }
 
 .map-btn{
-    background:linear-gradient(135deg,var(--blue),var(--blue-dark));
+    background:#4285f4;
 }
 
-.justdial-btn{
-    background:linear-gradient(135deg,#e53935,#b71c1c);
+.google-btn{
+    background:var(--enterprise-green);
 }
 
 
-/* =====================================================
-   CONTACT
-===================================================== */
+/* ================= CONTACT ================= */
 
 .contact{
     background:#07111f;
@@ -798,13 +731,7 @@ section{
 .contact-info{
     padding:35px;
     border-radius:18px;
-    background:
-    radial-gradient(
-        circle at top right,
-        rgba(8,124,255,.20),
-        transparent 40%
-    ),
-    linear-gradient(145deg,#0c1e34,#102b4c);
+    background:linear-gradient(145deg,#0c1e34,#102b4c);
     border:1px solid rgba(255,255,255,.1);
 }
 
@@ -843,10 +770,6 @@ section{
     color:#c3d1e0;
 }
 
-.contact-row a:hover{
-    color:#5caeff;
-}
-
 .contact-buttons{
     display:flex;
     flex-wrap:wrap;
@@ -862,11 +785,11 @@ section{
 }
 
 .contact-call{
-    background:linear-gradient(135deg,var(--blue),var(--blue-dark));
+    background:var(--kh-blue);
 }
 
 .contact-wa{
-    background:linear-gradient(135deg,var(--green),var(--green-dark));
+    background:var(--enterprise-green);
 }
 
 .contact-map{
@@ -874,7 +797,6 @@ section{
     border-radius:18px;
     overflow:hidden;
     background:#152438;
-    border:2px solid rgba(8,124,255,.25);
 }
 
 .contact-map iframe{
@@ -885,31 +807,28 @@ section{
 }
 
 
-/* =====================================================
-   FOOTER
-===================================================== */
+/* ================= FOOTER ================= */
 
 footer{
     background:#03070d;
     color:#9aa8b9;
     text-align:center;
     padding:30px 20px;
-    border-top:1px solid rgba(255,255,255,.06);
 }
 
 .footer-logo{
     color:white;
-    font-size:25px;
+    font-size:23px;
     font-weight:900;
     margin-bottom:5px;
 }
 
-.footer-logo span{
-    color:var(--blue);
+.footer-logo .kh{
+    color:var(--kh-blue);
 }
 
-.footer-logo b{
-    color:var(--green);
+.footer-logo .ent{
+    color:var(--enterprise-green);
 }
 
 .footer-links{
@@ -922,18 +841,12 @@ footer{
     font-size:13px;
 }
 
-.footer-links a:hover{
-    color:var(--blue);
-}
-
 .copyright{
     font-size:13px;
 }
 
 
-/* =====================================================
-   FLOATING BUTTONS
-===================================================== */
+/* ================= FLOATING BUTTONS ================= */
 
 .floating{
     position:fixed;
@@ -955,25 +868,18 @@ footer{
     border-radius:50%;
     font-size:25px;
     box-shadow:0 5px 18px rgba(0,0,0,.3);
-    transition:.25s;
-}
-
-.float:hover{
-    transform:scale(1.08);
 }
 
 .float-call{
-    background:linear-gradient(135deg,var(--blue),var(--blue-dark));
+    background:var(--kh-blue);
 }
 
 .float-wa{
-    background:linear-gradient(135deg,var(--green),var(--green-dark));
+    background:var(--enterprise-green);
 }
 
 
-/* =====================================================
-   BOOKING POPUP
-===================================================== */
+/* ================= BOOKING POPUP ================= */
 
 .overlay{
     display:none;
@@ -993,8 +899,6 @@ footer{
     padding:30px;
     position:relative;
     box-shadow:0 20px 60px rgba(0,0,0,.35);
-    border-top:5px solid var(--blue);
-    border-bottom:5px solid var(--green);
     animation:popupShow .35s ease;
 }
 
@@ -1034,7 +938,7 @@ footer{
 
 .popup>p{
     text-align:center;
-    color:var(--muted);
+    color:#667085;
     margin-bottom:20px;
 }
 
@@ -1059,14 +963,14 @@ footer{
 .popup input:focus,
 .popup select:focus,
 .popup textarea:focus{
-    border-color:var(--blue);
+    border-color:var(--kh-blue);
     box-shadow:0 0 0 2px rgba(8,124,255,.08);
 }
 
 .submit{
     width:100%;
     border:0;
-    background:linear-gradient(135deg,var(--green),var(--green-dark));
+    background:var(--enterprise-green);
     color:white;
     padding:14px;
     border-radius:8px;
@@ -1077,13 +981,11 @@ footer{
 }
 
 .submit:hover{
-    background:var(--green-dark);
+    background:#12843c;
 }
 
 
-/* =====================================================
-   MOBILE
-===================================================== */
+/* ================= MOBILE ================= */
 
 @media(max-width:1050px){
 
@@ -1127,10 +1029,11 @@ footer{
     .hero{
         min-height:650px;
         padding:55px 15px;
+        background-position:center;
     }
 
     .hero h1{
-        font-size:39px;
+        font-size:38px;
     }
 
     .hero h2{
@@ -1254,14 +1157,13 @@ footer{
 }
 
 </style>
+
 </head>
 
 <body>
 
 
-<!-- =====================================================
-     HEADER
-===================================================== -->
+<!-- ================= HEADER ================= -->
 
 <header>
 
@@ -1269,7 +1171,7 @@ footer{
 
 <a href="#home" class="logo">
 
-<span>K.H</span> <b>ENTERPRISES</b>
+<span class="kh">K.H.</span> <span class="ent">ENTERPRISES</span>
 
 <small>HOME APPLIANCE REPAIR</small>
 
@@ -1296,9 +1198,7 @@ footer{
 </header>
 
 
-<!-- =====================================================
-     HERO
-===================================================== -->
+<!-- ================= HERO ================= -->
 
 <section class="hero" id="home">
 
@@ -1309,23 +1209,23 @@ footer{
 </div>
 
 <h1>
-<span>K.H</span> <b>ENTERPRISES</b>
+<span class="kh">K.H.</span> <span class="ent">ENTERPRISES</span>
 </h1>
 
 <h2>
-AC, Fridge & Washing Machine Repair in Dhanbad
+AC, Fridge & Washing Machine Repair Service
 </h2>
 
 <p>
-Professional home appliance repair and service in Dhanbad.
-We provide reliable repair solutions for AC, refrigerator,
-washing machine and other home appliances.
+Professional home appliance repair and service.
+Reliable repair solutions for AC, refrigerator,
+washing machine and other essential home appliances.
 </p>
 
 <p class="hero-services">
 AC Repair • Refrigerator Repair • Washing Machine Repair •
 Geyser Repair • Microwave Repair • Chimney Repair •
-LED TV Repair • Aquaguard Repair
+LED TV Repair • Water Purifier Repair
 </p>
 
 <div class="buttons">
@@ -1335,7 +1235,7 @@ LED TV Repair • Aquaguard Repair
 </a>
 
 <a class="btn btn-whatsapp"
-href="https://wa.me/917870479649?text=Hello%20K.H%20ENTERPRISES%2C%20I%20need%20repair%20service."
+href="https://wa.me/917870479649?text=Hello%20K.H.%20Enterprises%2C%20I%20need%20repair%20service."
 target="_blank">
 💬 WhatsApp
 </a>
@@ -1351,7 +1251,7 @@ target="_blank">
 <div class="trust-item">✓ AC Repair</div>
 <div class="trust-item">✓ Fridge Repair</div>
 <div class="trust-item">✓ Washing Machine Repair</div>
-<div class="trust-item">✓ Dhanbad Service</div>
+<div class="trust-item">✓ Professional Service</div>
 
 </div>
 
@@ -1360,9 +1260,7 @@ target="_blank">
 </section>
 
 
-<!-- =====================================================
-     SERVICES
-===================================================== -->
+<!-- ================= SERVICES ================= -->
 
 <section class="services" id="services">
 
@@ -1376,7 +1274,7 @@ target="_blank">
 
 <p>
 Professional repair and service for your essential
-home appliances in Dhanbad.
+home appliances.
 </p>
 
 </div>
@@ -1384,9 +1282,11 @@ home appliances in Dhanbad.
 <div class="services-grid">
 
 
+<!-- AC -->
+
 <div class="service-card">
 
-<img src="ac.jpeg" alt="AC Repair Service in Dhanbad">
+<img src="ac.jpeg" alt="AC Repair Service">
 
 <div class="service-content">
 
@@ -1404,989 +1304,5 @@ Call for AC Repair →
 </a>
 
 </div>
-</div>
 
-
-<div class="service-card">
-
-<img src="fr.jpeg" alt="Refrigerator Fridge Repair in Dhanbad">
-
-<div class="service-content">
-
-<div class="service-icon">🧊</div>
-
-<h3>Fridge Repair</h3>
-
-<p>
-Refrigerator inspection, cooling problem, compressor,
-gas and other repair services.
-</p>
-
-<a href="tel:7870479649" class="service-link">
-Call for Fridge Repair →
-</a>
-
-</div>
-</div>
-
-
-<div class="service-card">
-
-<img src="wm.jpeg" alt="Washing Machine Repair in Dhanbad">
-
-<div class="service-content">
-
-<div class="service-icon">🧺</div>
-
-<h3>Washing Machine Repair</h3>
-
-<p>
-Top load, front load and semi automatic washing machine
-repair and troubleshooting.
-</p>
-
-<a href="tel:7870479649" class="service-link">
-Call for Washing Machine Repair →
-</a>
-
-</div>
-</div>
-
-
-<div class="service-card">
-
-<img src="gy.jpeg" alt="Geyser Repair Service in Dhanbad">
-
-<div class="service-content">
-
-<div class="service-icon">🚿</div>
-
-<h3>Geyser Repair</h3>
-
-<p>
-Electric geyser inspection, heating problems, thermostat,
-element and other repair services.
-</p>
-
-<a href="tel:7870479649" class="service-link">
-Call for Geyser Repair →
-</a>
-
-</div>
-</div>
-
-
-<div class="service-card">
-
-<img src="mw.jpeg" alt="Microwave Oven Repair in Dhanbad">
-
-<div class="service-content">
-
-<div class="service-icon">🍽️</div>
-
-<h3>Microwave Repair</h3>
-
-<p>
-Microwave oven troubleshooting, heating problems and
-electrical repair services.
-</p>
-
-<a href="tel:7870479649" class="service-link">
-Call for Microwave Repair →
-</a>
-
-</div>
-</div>
-
-
-<div class="service-card">
-
-<img src="ch.jpeg" alt="Kitchen Chimney Repair in Dhanbad">
-
-<div class="service-content">
-
-<div class="service-icon">🏠</div>
-
-<h3>Chimney Repair</h3>
-
-<p>
-Kitchen chimney cleaning, motor, suction and other
-common chimney repair services.
-</p>
-
-<a href="tel:7870479649" class="service-link">
-Call for Chimney Repair →
-</a>
-
-</div>
-</div>
-
-
-<div class="service-card">
-
-<img src="tv.jpeg" alt="LED TV Repair in Dhanbad">
-
-<div class="service-content">
-
-<div class="service-icon">📺</div>
-
-<h3>LED TV Repair</h3>
-
-<p>
-LED TV inspection and repair for display, power,
-sound and other common faults.
-</p>
-
-<a href="tel:7870479649" class="service-link">
-Call for TV Repair →
-</a>
-
-</div>
-</div>
-
-
-<div class="service-card">
-
-<img src="aq.jpeg" alt="Aquaguard Water Purifier Repair in Dhanbad">
-
-<div class="service-content">
-
-<div class="service-icon">💧</div>
-
-<h3>Aquaguard Repair</h3>
-
-<p>
-Water purifier inspection, filter, pump, electrical
-and other repair services.
-</p>
-
-<a href="tel:7870479649" class="service-link">
-Call for Aquaguard Repair →
-</a>
-
-</div>
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =====================================================
-     BRANDS
-===================================================== -->
-
-<section class="brands" id="brands">
-
-<div class="container">
-
-<div class="section-heading">
-
-<div class="tag">MAJOR BRANDS</div>
-
-<h2>Brands We Service</h2>
-
-<p>
-We provide repair and service support for major
-home appliance brands.
-</p>
-
-</div>
-
-<div class="brand-grid">
-
-<div class="brand">LG</div>
-<div class="brand">Samsung</div>
-<div class="brand">Whirlpool</div>
-<div class="brand">Voltas</div>
-<div class="brand">Panasonic</div>
-<div class="brand">Haier</div>
-<div class="brand">Godrej</div>
-<div class="brand">IFB</div>
-<div class="brand">Hitachi</div>
-<div class="brand">Bosch</div>
-<div class="brand">Blue Star</div>
-<div class="brand">Carrier</div>
-<div class="brand">O General</div>
-<div class="brand">Daikin</div>
-<div class="brand">Aquaguard</div>
-<div class="brand">Other Brands</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =====================================================
-     WHY CHOOSE US
-===================================================== -->
-
-<section class="why">
-
-<div class="container">
-
-<div class="section-heading">
-
-<div class="tag">WHY CHOOSE US</div>
-
-<h2>Professional Service You Can Rely On</h2>
-
-<p>
-We focus on proper diagnosis, quality workmanship and
-dependable appliance repair service.
-</p>
-
-</div>
-
-<div class="why-grid">
-
-<div class="why-card">
-
-<div class="why-icon">🔧</div>
-
-<h3>Skilled Technicians</h3>
-
-<p>
-Experienced technicians for different home appliance
-repair requirements.
-</p>
-
-</div>
-
-
-<div class="why-card">
-
-<div class="why-icon">⚡</div>
-
-<h3>Fast Response</h3>
-
-<p>
-We aim to provide timely service for your appliance
-repair needs.
-</p>
-
-</div>
-
-
-<div class="why-card">
-
-<div class="why-icon">💰</div>
-
-<h3>Transparent Charges</h3>
-
-<p>
-Clear service charges with proper inspection before
-major repair work.
-</p>
-
-</div>
-
-
-<div class="why-card">
-
-<div class="why-icon">🛠️</div>
-
-<h3>Quality Workmanship</h3>
-
-<p>
-Professional repair work with attention to safety and
-proper installation.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =====================================================
-     OUR WORK
-===================================================== -->
-
-<section class="work" id="work">
-
-<div class="container">
-
-<div class="section-heading">
-
-<div class="tag">OUR WORK</div>
-
-<h2>Recent Service Work</h2>
-
-<p>
-A look at some of the appliance service and repair work
-handled by our technicians.
-</p>
-
-</div>
-
-<div class="work-grid">
-
-<div class="work-item">
-<img src="ac.jpeg" alt="AC repair and service work">
-<div class="work-caption">AC Repair & Service</div>
-</div>
-
-<div class="work-item">
-<img src="fr.jpeg" alt="Refrigerator repair work">
-<div class="work-caption">Fridge Repair</div>
-</div>
-
-<div class="work-item">
-<img src="wm.jpeg" alt="Washing machine repair work">
-<div class="work-caption">Washing Machine Repair</div>
-</div>
-
-<div class="work-item">
-<img src="gy.jpeg" alt="Geyser repair work">
-<div class="work-caption">Geyser Repair</div>
-</div>
-
-<div class="work-item">
-<img src="mw.jpeg" alt="Microwave repair work">
-<div class="work-caption">Microwave Repair</div>
-</div>
-
-<div class="work-item">
-<img src="ch.jpeg" alt="Kitchen chimney repair work">
-<div class="work-caption">Chimney Repair</div>
-</div>
-
-<div class="work-item">
-<img src="tv.jpeg" alt="LED TV repair work">
-<div class="work-caption">LED TV Repair</div>
-</div>
-
-<div class="work-item">
-<img src="aq.jpeg" alt="Aquaguard repair work">
-<div class="work-caption">Aquaguard Repair</div>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =====================================================
-     HOW IT WORKS
-===================================================== -->
-
-<section class="how">
-
-<div class="container">
-
-<div class="section-heading">
-
-<div class="tag">HOW IT WORKS</div>
-
-<h2>Simple Service Process</h2>
-
-<p>
-Getting your home appliance repaired is simple and
-straightforward.
-</p>
-
-</div>
-
-<div class="steps">
-
-<div class="step">
-
-<div class="step-number">1</div>
-
-<h3>Contact Us</h3>
-
-<p>
-Call or WhatsApp us with your appliance problem.
-</p>
-
-</div>
-
-
-<div class="step">
-
-<div class="step-number">2</div>
-
-<h3>Schedule Visit</h3>
-
-<p>
-We arrange a convenient service visit.
-</p>
-
-</div>
-
-
-<div class="step">
-
-<div class="step-number">3</div>
-
-<h3>Inspection</h3>
-
-<p>
-Our technician checks the appliance and identifies
-the problem.
-</p>
-
-</div>
-
-
-<div class="step">
-
-<div class="step-number">4</div>
-
-<h3>Repair</h3>
-
-<p>
-After approval, the required repair work is carried
-out professionally.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =====================================================
-     ABOUT
-===================================================== -->
-
-<section class="about" id="about">
-
-<div class="container">
-
-<div class="about-grid">
-
-<div class="about-image">
-
-<img src="hero.jpeg"
-alt="K.H ENTERPRISES Home Appliance Repair Service">
-
-</div>
-
-
-<div class="about-content">
-
-<div class="tag">ABOUT K.H ENTERPRISES</div>
-
-<h2>Professional Home Appliance Service</h2>
-
-<p>
-K.H ENTERPRISES provides professional repair and
-service solutions for a wide range of home appliances.
-</p>
-
-<p>
-From AC and refrigerators to washing machines, geysers,
-microwave ovens, chimneys, LED TVs and water purifiers,
-our technicians handle a variety of common appliance
-problems.
-</p>
-
-<p>
-Our focus is on proper inspection, reliable repair work,
-transparent service charges and customer satisfaction.
-</p>
-
-<div class="about-list">
-
-<div>✓ Professional Service</div>
-<div>✓ Skilled Technicians</div>
-<div>✓ Major Brands</div>
-<div>✓ Transparent Charges</div>
-<div>✓ Home Service</div>
-<div>✓ Reliable Solutions</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =====================================================
-     REVIEWS
-===================================================== -->
-
-<section class="reviews" id="reviews">
-
-<div class="container">
-
-<div class="section-heading">
-
-<div class="tag">CUSTOMER REVIEWS</div>
-
-<h2>What Our Customers Say</h2>
-
-<p>
-Your feedback helps us improve our service and assists
-other customers in choosing the right repair service.
-</p>
-
-</div>
-
-<div class="review-box">
-
-<div class="stars">★★★★★</div>
-
-<h3>Trusted Home Appliance Service</h3>
-
-<p>
-We value every customer's experience and strive to provide
-professional, dependable and transparent appliance repair
-service.
-</p>
-
-<a href="https://share.google/2zchxiVvvDuctFYqp"
-target="_blank"
-class="review-button">
-
-View Google Business Profile →
-
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =====================================================
-     SERVICE AREAS
-===================================================== -->
-
-<section class="areas">
-
-<div class="container">
-
-<div class="section-heading">
-
-<div class="tag">SERVICE AREA</div>
-
-<h2>Home Appliance Service</h2>
-
-<p>
-Professional appliance repair and service available for
-customers requiring home service.
-</p>
-
-</div>
-
-<div class="area-box">
-
-<div class="big-icon">📍</div>
-
-<h3>Dhanbad & Nearby Areas</h3>
-
-<p>
-Contact K.H ENTERPRISES to check service availability
-for your location.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =====================================================
-     BUSINESS LINKS
-===================================================== -->
-
-<section class="business">
-
-<div class="container">
-
-<div class="section-heading">
-
-<div class="tag">FIND US ONLINE</div>
-
-<h2>Connect With K.H ENTERPRISES</h2>
-
-<p>
-Find our business profile and contact us for appliance
-repair and service.
-</p>
-
-</div>
-
-<div class="business-grid">
-
-<div class="business-card">
-
-<div class="icon">📍</div>
-
-<h3>Google Business Profile</h3>
-
-<p>
-View K.H ENTERPRISES business information,
-reviews and service details on Google.
-</p>
-
-<a href="https://share.google/2zchxiVvvDuctFYqp"
-target="_blank"
-class="business-button map-btn">
-
-Open Google Business
-
-</a>
-
-</div>
-
-
-<div class="business-card">
-
-<div class="icon">📞</div>
-
-<h3>Call K.H ENTERPRISES</h3>
-
-<p>
-Contact us directly for appliance repair,
-service and home visit requirements.
-</p>
-
-<a href="tel:7870479649"
-class="business-button"
-style="background:linear-gradient(135deg,#16c96b,#07964b);">
-
-Call Now
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =====================================================
-     CONTACT
-===================================================== -->
-
-<section class="contact" id="contact">
-
-<div class="container">
-
-<div class="contact-grid">
-
-<div class="contact-info">
-
-<h2>Contact K.H ENTERPRISES</h2>
-
-<p>
-Need appliance repair or service? Get in touch with us
-to discuss your requirement.
-</p>
-
-
-<div class="contact-row">
-
-<div class="icon">📞</div>
-
-<div>
-
-<strong>Phone</strong>
-
-<a href="tel:7870479649">
-7870479649
-</a>
-
-</div>
-
-</div>
-
-
-<div class="contact-row">
-
-<div class="icon">💬</div>
-
-<div>
-
-<strong>WhatsApp</strong>
-
-<a href="https://wa.me/917870479649?text=Hello%20K.H%20ENTERPRISES%2C%20I%20need%20repair%20service."
-target="_blank">
-
-Chat with us on WhatsApp
-
-</a>
-
-</div>
-
-</div>
-
-
-<div class="contact-row">
-
-<div class="icon">📍</div>
-
-<div>
-
-<strong>Service Area</strong>
-
-<span>Dhanbad & Nearby Areas</span>
-
-</div>
-
-</div>
-
-
-<div class="contact-buttons">
-
-<a href="tel:7870479649"
-class="contact-button contact-call">
-
-📞 Call Now
-
-</a>
-
-<a href="https://wa.me/917870479649?text=Hello%20K.H%20ENTERPRISES%2C%20I%20need%20repair%20service."
-target="_blank"
-class="contact-button contact-wa">
-
-💬 WhatsApp
-
-</a>
-
-</div>
-
-</div>
-
-
-<div class="contact-map">
-
-<iframe
-src="https://www.google.com/maps?q=Dhanbad%2C%20Jharkhand&output=embed"
-loading="lazy"
-allowfullscreen>
-</iframe>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
-
-<footer>
-
-<div class="footer-logo">
-
-<span>K.H</span> <b>ENTERPRISES</b>
-
-</div>
-
-<div>
-Professional Home Appliance Repair Service
-</div>
-
-<div class="footer-links">
-
-<a href="#home">Home</a>
-<a href="#services">Services</a>
-<a href="#brands">Brands</a>
-<a href="#work">Our Work</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-
-</div>
-
-<div class="copyright">
-
-© 2026 K.H ENTERPRISES. All Rights Reserved.
-
-</div>
-
-</footer>
-
-
-<!-- =====================================================
-     FLOATING BUTTONS
-===================================================== -->
-
-<div class="floating">
-
-<a class="float float-call"
-href="tel:7870479649"
-aria-label="Call K.H ENTERPRISES">
-
-📞
-
-</a>
-
-<a class="float float-wa"
-href="https://wa.me/917870479649?text=Hello%20K.H%20ENTERPRISES%2C%20I%20need%20repair%20service."
-target="_blank"
-aria-label="WhatsApp K.H ENTERPRISES">
-
-💬
-
-</a>
-
-</div>
-
-
-<!-- =====================================================
-     BOOKING POPUP
-===================================================== -->
-
-<div class="overlay" id="bookingOverlay">
-
-<div class="popup">
-
-<div class="close" onclick="closeBooking()">
-&times;
-</div>
-
-<h2>Book a Service</h2>
-
-<p>
-Tell us about your appliance and we will contact you.
-</p>
-
-<form onsubmit="sendBooking(event)">
-
-<input
-type="text"
-id="customerName"
-placeholder="Your Name"
-required>
-
-<input
-type="tel"
-id="customerPhone"
-placeholder="Mobile Number"
-required>
-
-<select id="appliance" required>
-
-<option value="">Select Appliance</option>
-<option>AC</option>
-<option>Refrigerator / Fridge</option>
-<option>Washing Machine</option>
-<option>Geyser</option>
-<option>Microwave Oven</option>
-<option>Kitchen Chimney</option>
-<option>LED TV</option>
-<option>Aquaguard / Water Purifier</option>
-
-</select>
-
-<textarea
-id="problem"
-placeholder="Describe your appliance problem..."
-required></textarea>
-
-<button type="submit" class="submit">
-Send Booking on WhatsApp
-</button>
-
-</form>
-
-</div>
-
-</div>
-
-
-<!-- =====================================================
-     JAVASCRIPT
-===================================================== -->
-
-<script>
-
-function openBooking(){
-
-    document.getElementById("bookingOverlay").style.display="block";
-
-    document.body.style.overflow="hidden";
-
-}
-
-
-function closeBooking(){
-
-    document.getElementById("bookingOverlay").style.display="none";
-
-    document.body.style.overflow="auto";
-
-}
-
-
-window.addEventListener("click",function(event){
-
-    const overlay=document.getElementById("bookingOverlay");
-
-    if(event.target===overlay){
-
-        closeBooking();
-
-    }
-
-});
-
-
-function sendBooking(event){
-
-    event.preventDefault();
-
-    const name =
-    document.getElementById("customerName").value.trim();
-
-    const phone =
-    document.getElementById("customerPhone").value.trim();
-
-    const appliance =
-    document.getElementById("appliance").value;
-
-    const problem =
-    document.getElementById("problem").value.trim();
-
-
-    const message =
-    "Hello K.H ENTERPRISES,%0A%0A"+
-    "I want to book a service.%0A%0A"+
-    "Name: "+encodeURIComponent(name)+"%0A"+
-    "Mobile: "+encodeURIComponent(phone)+"%0A"+
-    "Appliance: "+encodeURIComponent(appliance)+"%0A"+
-    "Problem: "+encodeURIComponent(problem);
-
-
-    window.open(
-        "https://wa.me/917870479649?text="+message,
-        "_blank"
-    );
-
-}
-
-</script>
-
-</body>
-</html>
+</div
